@@ -1,0 +1,15 @@
+C:\Users\aglam\source\repos\MarsMission\MarsMission\bin\Debug\net6.0\MarsMission.exe
+C:\Users\aglam\source\repos\MarsMission\MarsMission\bin\Debug\net6.0\MarsMission.deps.json
+C:\Users\aglam\source\repos\MarsMission\MarsMission\bin\Debug\net6.0\MarsMission.runtimeconfig.json
+C:\Users\aglam\source\repos\MarsMission\MarsMission\bin\Debug\net6.0\MarsMission.dll
+C:\Users\aglam\source\repos\MarsMission\MarsMission\bin\Debug\net6.0\MarsMission.pdb
+C:\Users\aglam\source\repos\MarsMission\MarsMission\obj\Debug\net6.0\MarsMission.csproj.AssemblyReference.cache
+C:\Users\aglam\source\repos\MarsMission\MarsMission\obj\Debug\net6.0\MarsMission.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aglam\source\repos\MarsMission\MarsMission\obj\Debug\net6.0\MarsMission.AssemblyInfoInputs.cache
+C:\Users\aglam\source\repos\MarsMission\MarsMission\obj\Debug\net6.0\MarsMission.AssemblyInfo.cs
+C:\Users\aglam\source\repos\MarsMission\MarsMission\obj\Debug\net6.0\MarsMission.csproj.CoreCompileInputs.cache
+C:\Users\aglam\source\repos\MarsMission\MarsMission\obj\Debug\net6.0\MarsMission.dll
+C:\Users\aglam\source\repos\MarsMission\MarsMission\obj\Debug\net6.0\refint\MarsMission.dll
+C:\Users\aglam\source\repos\MarsMission\MarsMission\obj\Debug\net6.0\MarsMission.pdb
+C:\Users\aglam\source\repos\MarsMission\MarsMission\obj\Debug\net6.0\MarsMission.genruntimeconfig.cache
+C:\Users\aglam\source\repos\MarsMission\MarsMission\obj\Debug\net6.0\ref\MarsMission.dll
