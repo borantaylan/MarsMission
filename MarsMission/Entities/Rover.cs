@@ -21,7 +21,7 @@ namespace MarsMission.Entities
         {
             var xDistanceToGo = Math.Cos(RotationDegree * Math.PI / 180.0 * unit);
             X += xDistanceToGo;
-            var yDistanceToGo = (float)Math.Sin(RotationDegree * Math.PI / 180.0 * unit);
+            var yDistanceToGo = Math.Sin(RotationDegree * Math.PI / 180.0 * unit);
             Y += yDistanceToGo;
         }
         public void Rotate(bool isClockWise, double degree = 90) //TODO As a start 90 degree as in the document, but should we give the change to move more sensitive? Makes sense to keep it like that?
