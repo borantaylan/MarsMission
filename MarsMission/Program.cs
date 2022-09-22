@@ -17,23 +17,8 @@ do
 
     Console.WriteLine("Please move the rover, L is to rotate counter clockwise, R is for clockwise, M is move.");
     string commands = Console.ReadLine();
-    foreach (char command in commands)
-    {
-        switch (command)
-        {
-            case 'L':
-                p.CurrentRover?.Rotate(false);
-                break;
-            case 'R':
-                p.CurrentRover?.Rotate(true);
-                break;
-            case 'M':
-                p.CurrentRover?.Move();
-                break;
-            default: throw new ArgumentException("Not recognized command");
-        }
-    }
-    Console.WriteLine("Commands are executed succesfully, current rovers coordinates and direction:");
+    p.MoveCurrentRover(commands);
+    Console.WriteLine("Commands are executed succesfully, current rover's coordinates and direction:");
     Console.WriteLine($"{(int)p.CurrentRover.X} {(int)p.CurrentRover.Y} {p.CurrentRover.CardinalPoints}");
     Console.WriteLine("If you wish to stop sending rovers, just write q or Q and enter. Otherwise please enter the next rover's coordinates");
     roverCoordinates = Console.ReadLine().Split(' ').ToArray();

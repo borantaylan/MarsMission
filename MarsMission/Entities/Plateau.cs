@@ -33,5 +33,27 @@ namespace MarsMission.Entities
             rovers.Add(newRover);
             CurrentRover = newRover;
         }
+
+        public void MoveCurrentRover(string commands)
+        {
+            if (CurrentRover == null) throw new InvalidOperationException("There is no rover to move");
+            foreach (char command in commands)
+            {
+                switch (command)
+                {
+                    case 'L':
+                        CurrentRover?.Rotate(false);
+                        break;
+                    case 'R':
+                        CurrentRover?.Rotate(true);
+                        break;
+                    case 'M':
+                        CurrentRover?.Move();
+                        Invariants.ThrowIfRoversCoordinateOutsideOfThePlateau(CurrentRover.X, CurrentRover.Y, X, Y);
+                        break;
+                    default: throw new ArgumentException("Not recognized command"); //TODO ignore or throw? Discuss
+                }
+            }
+        }
     }
 }
